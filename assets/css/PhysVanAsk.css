@@ -1,0 +1,217 @@
+html, body {
+	/*background: transparent;*/
+	background-image: url(../images/particle_tracks.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	line-height: 1.5em;
+	font-size: 14px;
+	font-family: 'Trocchi', 'Enriqueta', 'Lato', Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+#wrapper {
+	background-color: white;
+	position: relative;
+	min-height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+#content {
+	padding-bottom: 80px;
+}
+
+#body_content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: .9em;
+}
+
+#wide_body_content {
+	width: 100%;
+	font-size: .9em;
+}
+
+/*Text*/
+
+.title {
+	padding-top: 20px;
+	padding-bottom: 1em;
+	*padding: 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+/*Header*/
+
+#ask-header {
+	height: 120px;
+	background-color: #f36916;
+	background-image: url(../images/qa_header.jpg);
+	background-repeat: repeat-x;
+	background-position: left;
+}
+
+#Illinois-logo {
+	margin-top: 40px;
+	text-align: right;
+}
+
+#van-logo {
+	margin-top: 20px;
+}
+
+#physics-link {
+	font-size: 1.9em;
+	color: white;
+}
+
+#Illinois-link {
+	color: white;
+}
+
+#Illinois-links {
+	margin-top: 42px;
+}
+
+/*Question of the Day*/
+
+.question-of-the-day {
+	margin: 30px 30px 30px 30px;
+	background-color: #FFF;
+	border: 1px solid #ABABAB;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	padding: 5px 70px 10px 70px;
+	font-size: .9em;
+}
+
+.question-of-the-day .header {
+	margin-top: 60px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.question-of-the-day .answer {
+	margin-bottom: 60px;
+	color: blue;
+}
+
+/*Recent and Related Questions*/
+
+.sidebar {
+	padding: 20px;
+	margin-bottom: 30px;
+	padding-right: 50px;
+	font-size: .9em;
+}
+
+.sidebar h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+	.sidebar {
+		padding: 0px 80px 0px 80px;
+		font-size: .9em;
+	}
+
+	.sidebar h3 {
+		text-align: center;
+	}
+}
+
+.rss {
+	float: right;
+	margin: 12px 5px 0px 15px;
+	padding: 1px 1px 0px 1px;
+}
+
+#clear {
+	clear: both;
+}
+
+/*Footer*/
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #AAA;
+	font-size: .8em;
+	color: #666666;
+	padding: 5px;
+	height: 75px;
+}
+
+/*Navbar*/
+
+#nav {
+    border-color: red;
+	background-color: lightblue;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    max-width: 1022px;
+}
+
+.btn.active {
+	background-color: transparent;
+	box-shadow: none;
+	outline: none !important;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+	display: table;
+	table-layout: fixed;
+	float: none;
+}
+
+#search {
+	margin-top: 12px;
+}
+
+/*Volunteers*/
+
+.volunteer {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.volunteer img {
+	float: left;
+	margin-right: 20px;
+	border: 1px solid #000;
+}

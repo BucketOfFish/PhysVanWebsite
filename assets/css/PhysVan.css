@@ -1,0 +1,251 @@
+html {
+	background:#505D6E url(../images/particle_tracks.jpg) no-repeat center center fixed; 
+	min-height:100%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+body {
+	background:transparent;
+	min-height:100%; 	
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	line-height: 1.5em;
+	font-size:14px;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#666666;
+	font-weight: normal;
+}
+
+#wrapper_index {
+	background-color: darkgray;
+	position: relative;
+	min-height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+/********************************************************/
+/*             Sections - universal classes             */
+/********************************************************/
+.section { 
+	z-index: 1;
+	min-height:0px;
+	width: 100%; 
+	overflow:auto;
+	height:10%;
+	padding-top:50px;
+	padding-bottom:0px; 
+	display:none;
+	top:0;
+}
+
+#head { 
+	display: block;
+}
+
+
+/********************************************************/
+/*                      Typography                      */
+/********************************************************/
+a { color:#666666; text-decoration: none; }
+a:hover, a:active { color:#666666; text-decoration: underline; }
+.lead { 
+	font-weight:normal;
+	font-size:1.5em;
+	line-height:1.2em;
+}
+
+.title,
+.subtitle { 
+	font-family: 'Wire One', Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	font-size:7em;
+	margin-bottom:15px; 
+	line-height:1em;
+}
+.space {
+	margin-bottom:25px; 
+}
+.tagline { 
+	font-size:1.1em;
+	line-height:1.3em;
+	font-weight:normal;
+	width:80%;
+	text-align: justify;
+	margin:30px auto 0 auto;
+}
+
+@media (max-width: 767px) {
+	.lead { 
+		font-size:1.3em;
+	}
+}
+
+.iframe_wrapper         {width:80%;height:100%;margin:0 auto;background:#CCC}
+.h_iframe        {position:relative;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+/********************************************************/
+/*                   UI - Buttons                       */
+/********************************************************/
+.btn{
+	color:#333;
+	text-shadow: none;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:0 none;
+}
+.btn:hover {
+	color:#000;
+}
+.btn-lg { 
+	padding:16px 30px;
+	font-size:inherit;
+}
+
+.btn-link {
+	color:rgba(255,255,255,.8);
+}
+.btn-link:hover, .btn-link:focus, .btn-link:active {
+	color:#fff
+}
+.btn-default {
+	background: rgba(255,255,255,.5);
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+	background: rgba(255,255,255,.8);
+}
+.btn-primary {
+	background: rgba(255,255,255,.2);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active {
+	background: rgba(255,255,255,.5);
+}
+
+
+
+/********************************************************/
+/*                 UI - Thumbnails                      */
+/********************************************************/
+.thumbnail {
+	background-color: rgba(255,255,255,.2);
+	border: 0 none;
+	padding:10px;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+.thumbnail .caption {
+	color: inherit;
+}
+
+
+
+/********************************************************/
+/*                 Everything else                      */
+/********************************************************/
+
+.list-social .btn { 
+	font-size:1.3em; 
+}
+.list-social .btn:hover, .list-social .btn:active, .list-social .btn:focus { 
+	text-decoration: none; 
+}
+
+
+/* Social buttons in the footer */
+#social { 
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#social .wrapper { 
+	width:340px; 
+	margin:0 auto;
+}
+
+/********************************************************/
+/*                        U of I                        */
+/********************************************************/
+
+.uofi {
+	margin: 0px 0px 0px 220px;	
+	*margin-top: -51px;
+}
+
+.uofi a {
+	text-decoration:none;
+	color: #FFF;
+	font-size: .85em;
+}
+
+.uofi a:hover {
+	text-decoration:underline;
+}
+
+#uofi-ask {
+	margin:-43px 0px 0px 140px;	
+	*margin-top: -51px;
+}
+
+.physics-illinois {
+	font-size:1.9em;
+}
+
+.imark {
+	margin: 3px 3px 0px 8px;
+}
+
+#imark-ask {
+	margin: 40px 0px 0px 80px;
+}
+
+#show-request {
+	margin: 20px 0px 20px 0px;
+}
+
+#ask-header {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	height:120px;
+	background-color:#f36916;
+	background-image:url(../images/qa_header.jpg);
+	background-repeat:repeat-x;
+	background-position:left;
+}
+
+.physics_van_logo {
+	margin:-68px 0px 0px 480px;
+}
+
+.question_of_the_day {
+	float:left;
+	width: 470px;
+	min-height: 370px;
+	background-color:#FFF;
+	border:1px solid #ABABAB;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	behavior: url(/css/border-radius.htc);
+    border-radius: 20px;
+}
+
+.question_of_the_day p {
+	padding:5px 70px 10px 70px;
+	font-size:.9em;
+}
+
+.question_of_the_day .header {
+	margin-top:60px;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+}
